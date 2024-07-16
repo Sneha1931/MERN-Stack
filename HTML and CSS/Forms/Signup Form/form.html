@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Book World</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body {
+            background-image: url("book.jpg");
+            color:rgb(12, 12, 12);
+            background-size: cover;
+            margin: 2px;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            overflow: hidden;
+        }
+        input[type="Submit"] 
+        {
+            width: 40%;
+            height: 25px;
+            border: 1px solid;
+            border-radius:25px;
+            font-size: 18px; 
+            font-weight: 700;
+        }
+        form
+        {
+            background-color: white;
+            box-sizing: border-box;
+            padding: 0 40px;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 3%;
+            left: 40%;
+            border-radius: 3px;
+            
+        }
+
+        
+         
+    </style>
+
+<body>
+    <form>
+        <br><h1 style="font-family:Arial, Helvetica, sans-serif;"><marquee>Sign  Up</marquee></h1><hr><br>
+        <label for="fullname">Enter full name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Enter your password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirm">Confirm password:</label><br>
+        <input type="password" id="confirm" name="confirm" required><br><br>
+        <label for="dob">Date of birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="male" name="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="others" value="Others">
+        <label for="male">Others</label><br><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+    </form>
+</body>

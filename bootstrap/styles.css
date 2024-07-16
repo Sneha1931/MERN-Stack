@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #8d0dc4 ;
+}
+
+.nav-link.btn {
+  padding: 5px 20px;
+}
+
+.hero-section {
+  padding: 100px 0;
+  background-color: #596777;
+  color: white;
+}
+
+.hero-section .btn {
+  margin-top: 20px;
+}
+
+.features-section {
+  background-color: #e0aaaa;
+}
+
+.features-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.features-section .card:hover {
+  transform: translateY(-10px);
+}
+
+.features-section .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.features-section .card-text {
+  font-size: 1rem;
+  color: #1a5d97;
+}
+
+.footer-section {
+  background-color: #343a40;
+  color: white;
+}
+
+.footer-section p {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f0f1, #3769be);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .clock {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  #time {
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .clock::before {
+    content: '🕒';
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+    animation: spin 5s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

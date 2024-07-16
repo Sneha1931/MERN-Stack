@@ -1,0 +1,27 @@
+.margin{
+    border: 1px solid darkslategray;
+    background-color:lightgray;
+    border-style: dashed;
+    padding: 5px ;
+    text-align: center;
+    margin: 5px; 
+}
+.border{
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding:25px;
+    margin: 25px;
+}
+.padding{
+    border: 1px solid yellow;
+    background-color:lightgoldenrodyellow;
+    padding:25px;
+    margin: 25px;
+}
+.content{
+    border: 1px solid red;
+    background-color: pink;
+    border-style:dashed;
+    padding:25px;
+    margin: 25px;
+}

@@ -1,0 +1,56 @@
+body {
+ background:rgb(66, 64, 64);
+ overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    left:50%;
+    top: 50%;
+    width: 250px;
+    height: 250px;
+    transform: translate(-40,-40);
+    border-radius: 50%;
+    background:rgb(235, 231, 231);
+    box-shadow: 0 0 50px rgb(245, 248, 246);
+   }
+
+.planet {
+ position: relative;
+ box-shadow: inset 0 0 50px rgba(150, 150, 150, 0.2);
+ animation: eclipse 10s infinite linear; 
+ transform-origin: 50% 150%;
+ transform: rotate(-60deg);
+ left: 10px;
+ top: 2px;
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+ background: #010101;
+}
+
+#star {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 250px;
+    height: 250px;
+    transform: translate(-30%,-30%);
+    border-radius: 50%;
+    background: #DBE6E0;
+    box-shadow: 0 0 50px rgb(245, 248, 246);
+   }
+
+@keyframes eclipse {
+ 0%{
+      transform: rotate(-60deg); 
+ }
+ 
+ 90% {
+      transform: rotate(30deg); 
+ }
+ 
+ to{
+   transform: rotate(300deg);
+ }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        .flex{
+            display:flex;
+            justify-content: center;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        form{
+           padding-block: 0 20px;
+            margin:auto;
+            max-width:90em;
+            background-color:rgb(216, 226, 235);
+            border-radius: 5px;
+            border-style: double;
+            width:300px
+        }
+        body{
+         background-image:url(bg01.jpg);
+          background-repeat: no-repeat;
+            background-size:cover ;
+        }
+        h1{
+            
+            color: bisque;
+            height: 25px;
+            text-align:center;
+            font-size: 40px; 
+            font-family: 'monotype Corsiva';
+            text-decoration:underline;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1><br>
+    <div class="flex">
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required><br><br>
+        <label for="Course">Course</label><br>
+        <input type="text" id="COURSE"><br><br>
+        <label for="branch" id="branch">Branch</label><br>
+        <select  id="branch">
+            <option value="NA"> </option>
+            <option value="CS">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="EC">Electronics</option>
+            
+        </select><br><br>
+        <label for="Language and Framework known">Mention Language and Framework known :</label>
+        <br>
+
+        <input type="checkbox" >C#</input><br>
+        <input type="checkbox" >C++</input><br>
+        <input type="checkbox" >Java</input><br>
+        <input type="checkbox" >React</input><br>
+        <input type="checkbox" >Angular</input><br>
+        <input type="checkbox" >Django</input><br><br>
+        <label for="exp" id="exp">Experience:</label><br>
+        <input type="radio">5year</input>
+        <input type="radio">10year</input>
+        <input type="radio">Fresher</input><br><br>
+        <input type="submit"></input>
+    </form>
+    </div>
+</body>
+</html>
